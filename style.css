@@ -1,0 +1,371 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* body {
+  background-color: #f8f8fa;
+} */
+
+/* =================== Header =================== */
+
+header {
+  background-color: #491cfd;
+  height: 50vh;
+}
+
+.nav-logo-group {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #fff;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.nav-logo-group nav {
+  width: 30%;
+  display: flex;
+}
+
+.nav-logo-group nav a {
+  align-self: center;
+  margin-right: 2rem;
+}
+
+.nav-logo-group nav .nav-item-active {
+  background-color: #fff;
+  color: #491cfd;
+  padding: 2px 10px;
+  white-space: nowrap;
+  border-radius: 2px;
+}
+
+.nav-logo-group nav svg {
+  align-self: center;
+}
+
+.nav-logo-group .logo {
+  width: 80%;
+}
+
+.header-text-img-group {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  height: 40vh;
+}
+
+.header-text-img-group .header-text {
+  padding: 30px 40px;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; */
+}
+
+.header-text-img-group .header-text h2 {
+  padding-top: 10px;
+}
+
+.header-text-img-group .header-text p {
+  font-size: 12px;
+  color: rgb(255, 255, 255, 0.7);
+  padding-top: 20px;
+}
+
+/* =================== Companies =================== */
+
+.companies {
+  padding-top: 20px;
+  background-color: #f8f8fa;
+}
+
+.companies .company-items {
+  color: #000;
+  font-weight: bold;
+  padding-left: 40px;
+}
+
+/* =================== API Section =================== */
+
+.api {
+  padding-top: 40px;
+  padding-left: 40px;
+  height: 50vh;
+  background-color: #f8f8fa;
+}
+
+.api .api-heading {
+  font-weight: bold;
+}
+
+.api .cards {
+  padding-top: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.api .cards .card {
+  /* padding-left: 80px; */
+  padding-top: 20px;
+}
+
+.api .cards .card-active {
+  padding-left: 40px;
+  padding-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 1px #000;
+  border-radius: 10px;
+  height: 220px;
+  width: 220px;
+}
+
+.api .cards .card-active .card-head-active {
+  padding-top: 10px;
+  color: #491cfd;
+}
+
+.api .cards .card-active .card-body {
+  font-size: 12px;
+}
+
+/* =================== Blog Section =================== */
+
+.blog-heading {
+  background-color: #f8f8fa;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+.blog-cards {
+  padding: 20px 300px 60px 40px;
+  background-color: #f8f8fa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-cards .blog-card {
+  width: 500px;
+  background-color: #fff;
+  display: flex;
+  /* justify-content: center; */
+  /* border: solid #000; */
+  border-radius: 50px 10px 10px 10px;
+  position: relative;
+}
+
+.blog-cards .blog-card .blog-image {
+  background-color: #f8f8fa;
+}
+
+.blog-cards .blog-card .blog-content {
+  /* align-self: center; */
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-cards .blog-card .blog-content h6 {
+  padding-top: 20px;
+  color: #491cfd;
+  font-weight: bold;
+}
+
+.blog-cards .blog-card .blog-content h3 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.blog-cards .blog-card .blog-content small {
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.blog-cards .blog-card .blog-bottom {
+  /* align-self: flex-end; */
+  position: absolute;
+  bottom: -20px;
+  left: 300px;
+}
+
+.blog-cards .blog-card .blog-author {
+  /* align-self: flex-end; */
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 180px;
+}
+
+/* =================== FAQ Section =================== */
+
+.faq-section {
+  height: 324px;
+  background-color: #e9edff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-section .faq-content {
+  padding-top: 50px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-section .faq-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.faq-section .faq-content h4 {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.faq-section .faq-content button {
+  margin-top: 20px;
+  width: fit-content;
+  color: #fff;
+  background-color: #491cfd;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* =================== Download Section =================== */
+
+.download-section {
+  padding: 100px 40px 100px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-section .download-content span {
+  font-weight: 100;
+}
+
+.download-section .download-email {
+  width: 40%;
+  position: relative;
+}
+
+.download-section .download-email form input {
+  width: 80%;
+  padding: 10px 0px 10px 40px;
+  background-color: #e9edff;
+  border: none;
+  border-radius: 30px;
+}
+
+.download-section .download-email form button {
+  color: #fff;
+  background-color: #491cfd;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px 10px 40px;
+  position: absolute;
+  right: 150px;
+}
+
+::placeholder {
+  color: #000;
+}
+
+/* =================== Footer Section =================== */
+
+.footer-section {
+  padding: 50px 40px 20px 40px;
+  background-color: #491cfd;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section .footer-left img {
+  width: 30%;
+}
+
+.footer-section .footer-left .list {
+  padding-top: 20px;
+  display: flex;
+}
+
+.footer-section .footer-left .list .list-items {
+  /* padding-left: 20px; */
+  padding-right: 20px;
+  /* border-right: 1px solid #fff; */
+  font-size: 12px;
+  position: relative;
+}
+
+.footer-section .footer-left .list .list-items:nth-child(even):after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: 25%;
+  right: 10px;
+  height: 50%;
+  width: 1px;
+}
+
+.footer-section .footer-left .list .list-items:nth-child(3):after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: 25%;
+  right: 10px;
+  height: 50%;
+  width: 1px;
+}
+
+.footer-section .footer-right .footer-logos {
+  padding-right: 10px;
+}
+
+.footer-section .footer-right .logos-list {
+  padding-top: 10px;
+  justify-content: space-between;
+  font-size: 12px;
+  display: flex;
+}
+
+.footer-section .footer-right .logos-list .list-items {
+  position: relative;
+}
+
+.footer-section .footer-right .logos-list .list-items:nth-child(1):after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: 25%;
+  right: -10px;
+  height: 50%;
+  width: 1px;
+}
+
+.footer-section .footer-right .logos-list .list-items:nth-child(2):after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: 25%;
+  right: -10px;
+  height: 50%;
+  width: 1px;
+}
+
+
+
