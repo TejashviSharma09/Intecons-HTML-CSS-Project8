@@ -113,6 +113,21 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.api .cards::after {
+  content: ">";
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  background-color: #491cfd;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  right: -60px;
+  top: 40%;
 }
 
 .api .cards .card {
@@ -153,6 +168,19 @@ header {
   background-color: #f8f8fa;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.blog-cards::after {
+  content: "See All Article";
+  position: absolute;
+  color: #491cfd;
+  font-size: 12px;
+  font-weight: bold;
+  /* height: 30px;
+  width: 30px; */
+  right: 100px;
+  top: -40px;
 }
 
 .blog-cards .blog-card {
@@ -254,7 +282,12 @@ header {
   justify-content: space-between;
 }
 
+.download-section .download-content h1 {
+  font-family: "Righteous";
+}
+
 .download-section .download-content span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 100;
 }
 
