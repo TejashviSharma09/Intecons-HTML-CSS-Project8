@@ -204,6 +204,11 @@ header {
   flex-direction: column;
 }
 
+.blog-card .blog-bottom .blog-card-bottom-image {
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
 .blog-cards .blog-card .blog-content h6 {
   padding-top: 20px;
   color: #491cfd;
